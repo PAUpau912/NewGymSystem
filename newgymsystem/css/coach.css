@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    box-sizing: border-box;
+}
+/*HEADING*/
+.heading{
+    background-color: goldenrod;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+h1,.Back{
+    text-decoration: none;
+    color: white;
+}
+/*SEARCHBAR*/
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+.Add{
+    text-decoration: none;
+    color: rgb(205, 149, 8);
+    font-size: large;
+    font-weight: bold;
+}
+#search{
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+#search:focus{
+    outline: none;
+    border-bottom: 3px solid black;
+}
+::placeholder{
+    font-size: small;
+}
+.search{
+    padding: 10px 8px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+/*TABLE*/
+table{
+    margin: auto;
+}
+thead{
+    background-color: goldenrod;
+    color: white;
+}
+table, tr,th,td, tbody{
+    padding: 7px 7px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+.ID, .delete{
+    text-decoration: none;
+    width: fit-content;
+}
+.delete ,.delete:visited{
+    color: red;
+}
+.ID, .delete{
+    cursor: pointer;
+}
+.ID:visited{
+    color: blue;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One",sans-serif;
+}
+body{
+    background-color: rgba(219, 219, 219, 0.199);
+}
+.heading{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    border-bottom: 5px solid goldenrod;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*MEMBER INFO*/
+.CONT{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.container{
+    border: 1px solid white;
+    display: grid;
+    height: 400px;
+    width: 420px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 20px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    box-shadow: 5px 5px 10px grey;
+    padding: 10px 0px 10px 15px;
+    color: white;
+    font-weight: 400;
+    
+}
+label{
+    font-weight:700;
+}
+.info{
+    border-radius: 5px; 
+    width: 300px;
+    margin-left: -30px;
+   padding-left: 50px;
+}
+.picture{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    margin-left: 95px;
+}
+.Buttons{
+    margin-left: -20px;
+}
+.Buttons, .ID, .delete{
+    float: left;
+    width: 100%;
+    font-weight: 700;
+}
+.ID,.delete{
+    width: 50px 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.ID{
+    background-color: rgb(43, 93, 246);
+    color: white;
+}
+.delete{
+    color: white;
+    background-color: red;
+}

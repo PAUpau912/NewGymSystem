@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poetsen One",sans-serif;
+}
+img{
+    width: 70px;
+}
+.head-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    background-color: goldenrod;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+.head-container a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+/*TABLE*/
+table{
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px grey;
+}
+th{
+    background-color: black;
+    color: white;
+}
+table, thead,tr,th,td,tbody{
+    text-align: center;
+    border-left: 3px solid rgba(128, 128, 128, 0.537);
+    border-bottom: 3px solid rgba(128, 128, 128, 0.537);
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: rgba(182, 182, 182, 0.563);
+}
